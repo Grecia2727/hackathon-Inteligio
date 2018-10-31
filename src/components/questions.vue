@@ -157,9 +157,7 @@ export default {
 			}
 			});
 			sendDataMandrill(this.email, validate, img)
-			this.result.push()
-			this.$router.push({ name: 'profile', params: { validate: validate, img1: img, img2: img2 }})
-			
+			this.$router.push({ name: 'profile', params: { validate: validate, img1: img, img2: img2 }})			
 		}
 	},
 	components:{answers}
@@ -173,3 +171,4 @@ export default {
     z-index: 1 !important;
 }
 </style>
+
